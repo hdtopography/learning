@@ -1,4 +1,4 @@
-Here we provide open-source educational materials for high-definition topographic data manipulation and analysis, including the use of UAV, SfM-MVS photogrammetry, 3D point cloud, and 3D models. 
+Here we provide open-source learning materials for high-definition topographic data manipulation and analysis, including the use of UAV, SfM-MVS photogrammetry, 3D point cloud, and 3D models. 
 
 * UAV
   - [UAVの安全運用と点群データの解析]()
