@@ -20,18 +20,18 @@ original page: <a href="http://topography.csis.u-tokyo.ac.jp/resources/170210_hd
 **基本事項の解説**
 
 * [点群データとは？](./basic/basic.md#基本事項の解説)
-* [CloudCompareとは？](https://github.com/hdtopography/sandbox/blob/master/educational_materials/cloudcompare/basic/basic.md#cloudcompareとは)
+* [CloudCompareとは？](./basic/basic.md#cloudcompareとは)
 
 **基礎**
 
-* [LEVEL 0 インタフェース、表示、データの保存](https://github.com/hdtopography/sandbox/blob/master/educational%20materials/cloudcompare/level0/level0.md#level-0-インタフェース表示データの保存)
-* [LEVEL 1 基本操作](https://github.com/hdtopography/sandbox/blob/master/educational%20materials/cloudcompare/level1/level1.md#level-1-基本操作)
-* [LEVEL 2 スカラー値の操作](https://github.com/hdtopography/sandbox/blob/master/educational%20materials/cloudcompare/level2/level2.md#スカラー値)
+* [LEVEL 0 インタフェース、表示、データの保存](./level0/level0.md#level-0-インタフェース表示データの保存)
+* [LEVEL 1 基本操作](./level1/level1.md#level-1-基本操作)
+* [LEVEL 2 スカラー値の操作](./level2/level2.md#スカラー値)
 
 **応用**
 
-* [LEVEL 3.1 レジストレーション](https://github.com/hdtopography/sandbox/blob/master/educational%20materials/cloudcompare/level3.1/level3.1.md#レジストレーション)
-* [LEVEL 3.2 距離計算](https://github.com/hdtopography/sandbox/blob/master/educational%20materials/cloudcompare/level3.2/level3.2.md#距離計算)
+* [LEVEL 3.1 レジストレーション](./level3.1/level3.1.md#レジストレーション)
+* [LEVEL 3.2 距離計算](./level3.2/level3.2.md#距離計算)
 * LEVEL 4 体積計算
 * 共有 Share
 * 点群データの表示システム
