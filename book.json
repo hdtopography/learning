@@ -1,0 +1,14 @@
+{
+    "title": "titile",
+    "author": "author",
+    "gitbook": ">= 3.0.0",
+    "plugins": [
+        "-sharing",
+        "splitter",
+        "collapsible-menu",
+        "creativecommons"
+    ],
+    "styles": {
+        "website": "website.css"
+    }
+}

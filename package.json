@@ -1,0 +1,34 @@
+{
+  "name": "name",
+  "version": "0.0.0",
+  "keywords": [
+    "keyword1",
+    "keyword2"
+  ],
+  "description": "desctiption",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.0",
+    "http-server": "^0.9.0",
+    "gitbook-plugin-collapsible-menu": "^1.0.3",
+    "gitbook-plugin-creativecommons": "^1.0.2",
+    "gitbook-plugin-splitter": "0.0.8"
+  },
+  "scripts": {
+    "install": "gitbook install",
+    "build": "gitbook build",
+    "start": "http-server ./_book/ -io -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-account/your-repository.git"
+  },
+  "author": "author",
+  "bugs": {
+    "url": "https://github.com/your-issues"
+  },
+  "homepage": "https://github.com/your-homepage",
+  "license": "CC-BY-SA-4.0",
+  "dependencies": {
+    "node-uuid": "^1.4.8"
+  }
+}
