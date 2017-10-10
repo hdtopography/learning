@@ -19,7 +19,7 @@ original page: <a href="http://topography.csis.u-tokyo.ac.jp/resources/170210_hd
 
 **基本事項の解説**
 
-* [点群データとは？](https://github.com/hdtopography/sandbox/blob/master/educational_materials/cloudcompare/basic/basic.md#点群データとは)
+* [点群データとは？](./basic/basic.md)
 * [CloudCompareとは？](https://github.com/hdtopography/sandbox/blob/master/educational_materials/cloudcompare/basic/basic.md#cloudcompareとは)
 
 **基礎**
