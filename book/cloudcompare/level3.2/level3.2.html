@@ -1,0 +1,479 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>LEVEL 3.2 距離計算 · titile</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="author">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../../SfM-MVS/SfM-MVS.html" />
+    
+    
+    <link rel="prev" href="../level3.1/level3.1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Sandbox educational materials
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../cloudcompare.html">
+            
+                <a href="../cloudcompare.html">
+            
+                    
+                    CloudCompare
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../basic/basic.html">
+            
+                <a href="../basic/basic.html">
+            
+                    
+                    点群データとは？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../level0/level0.html">
+            
+                <a href="../level0/level0.html">
+            
+                    
+                    LEVEL 0 インタフェース、表示、データの保存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../level1/level1.html">
+            
+                <a href="../level1/level1.html">
+            
+                    
+                    LEVEL 1 基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../level2/level2.html">
+            
+                <a href="../level2/level2.html">
+            
+                    
+                    LEVEL 2 スカラー値の操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../level3.1/level3.1.html">
+            
+                <a href="../level3.1/level3.1.html">
+            
+                    
+                    LEVEL 3.1 レジストレーション
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.6" data-path="level3.2.html">
+            
+                <a href="level3.2.html">
+            
+                    
+                    LEVEL 3.2 距離計算
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../SfM-MVS/SfM-MVS.html">
+            
+                <a href="../../SfM-MVS/SfM-MVS.html">
+            
+                    
+                    SfM多視点ステレオ測量
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../../SfM-MVS/1_about_sfm/1_about_sfm.html">
+            
+                <a href="../../SfM-MVS/1_about_sfm/1_about_sfm.html">
+            
+                    
+                    SfMとは？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../../SfM-MVS/2_photoscan/2_photoscan.html">
+            
+                <a href="../../SfM-MVS/2_photoscan/2_photoscan.html">
+            
+                    
+                    Photoscan
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >LEVEL 3.2 距離計算</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x8DDD;&#x96E2;&#x8A08;&#x7B97;">&#x8DDD;&#x96E2;&#x8A08;&#x7B97;</h1>
+<h2 id="&#x70B9;&#x7FA4;&#x9593;&#x8DDD;&#x96E2;-cloud-to-cloud-distances">&#x70B9;&#x7FA4;&#x9593;&#x8DDD;&#x96E2; cloud-to-cloud distances</h2>
+<ul>
+<li>&#x4E8C;&#x3064;&#x306E;&#x70B9;&#x7FA4;&#x3092;&#x9078;&#x629E;&#xFF08;Shift+&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#xFF09;<ul>
+<li>Tools &gt; Distances &gt; Cloud/Cloud Dist.</li>
+</ul>
+</li>
+<li>gravel_a&#x3092;&#x57FA;&#x6E96;&#xFF08;Reference&#xFF09;&#x306B; &#x2190;Swap</li>
+<li>&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x8A2D;&#x5B9A;<ul>
+<li>max. distance = 0.05 m</li>
+<li>split X, Y,and Z<br>components: YES</li>
+<li>&#x2192; &#xAB; Compute &#xBB;<ul>
+<li>&#x2192;&#x3000;OK</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="pic_level3.2/1.png" alt="img"></p>
+<p><img src="pic_level3.2/2.png" alt="img"></p>
+<p><img src="pic_level3.2/3.png" alt="img"></p>
+<p><img src="pic_level3.2/4.png" alt="img"></p>
+<h2 id="&#x70B9;&#x7FA4;&#x9593;&#x8DDD;&#x96E2;&#x306E;&#x7B97;&#x51FA;&#x65B9;&#x6CD5;-c2c-distance">&#x70B9;&#x7FA4;&#x9593;&#x8DDD;&#x96E2;&#x306E;&#x7B97;&#x51FA;&#x65B9;&#x6CD5; C2C distance</h2>
+<ul>
+<li>&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x3067;&#x306F;&#x3001;&#x6BD4;&#x8F03;&#x3055;&#x308C;&#x308B;&#x70B9;&#x7FA4;&#x306E;&#x5404;&#x70B9;&#x306B;&#x3064;&#x3044;&#x3066;&#x3001;&#x57FA;&#x6E96;&#x70B9;&#x7FA4;&#x306E;&#x6700;&#x8FD1;&#x96A3;&#x306E;&#x70B9;&#x307E;&#x3067;&#x306E;&#x8DDD;&#x96E2;&#x304C;&#x7B97;&#x51FA;&#x3055;&#x308C;&#x308B;<ul>
+<li>&#x2192;&#x5BFE;&#x79F0;&#x7684;&#x3067;&#x306F;&#x306A;&#x3044;<br>&#xFF1D;&#x57FA;&#x6E96;&#x3068;&#x6BD4;&#x8F03;&#x3092;&#x5165;&#x308C;&#x66FF;&#x3048;&#x308B;&#x3068;&#x7D50;&#x679C;&#x3082;&#x82E5;&#x5E72;&#x7570;&#x306A;&#x308B;</li>
+</ul>
+</li>
+</ul>
+<p><img src="pic_level3.2/5.png" alt="img"></p>
+<h2 id="c2c-distances-&#x306E;&#x30B3;&#x30F3;&#x30BB;&#x30D7;&#x30C8;">C2C distances &#x306E;&#x30B3;&#x30F3;&#x30BB;&#x30D7;&#x30C8;</h2>
+<ul>
+<li>&#x57FA;&#x6E96;&#x3068;&#x306A;&#x308B;&#x70B9;&#x7FA4;&#x304C;&#x5145;&#x5206;&#x306B;&#x9AD8;&#x5BC6;&#x5EA6;&#x3067;&#x3042;&#x308C;&#x3070;&#x3001;&#x6BD4;&#x8F03;&#x70B9;&#x7FA4;&#x3067;&#x7B97;&#x51FA;&#x3055;&#x308C;&#x308B;&#x6700;&#x8FD1;&#x96A3;&#x306E;&#x70B9;&#x3068;&#x306E;&#x8DDD;&#x96E2;&#x306F;&#x3001;&#x5B9F;&#x969B;&#x306E;&#x8DDD;&#x96E2;&#x306B;&#x8FD1;&#x304F;&#x306A;&#x308B;</li>
+<li>&#x7406;&#x8AD6;&#xFF1A;TLS&#x306B;&#x3088;&#x308B;&#x70B9;&#x7FA4;&#x306F;&#x30DD;&#x30A2;&#x30BD;&#x30F3;&#x5206;&#x5E03;&#x306B;&#x5F93;&#x3046;<ul>
+<li>&#x8AA4;&#x5DEE;&#x306F;&#x70B9;&#x7FA4;&#x5BC6;&#x5EA6;&#x306B;&#x4F9D;&#x5B58;&#x3059;&#x308B;</li>
+</ul>
+</li>
+<li>&#x57FA;&#x6E96;&#x70B9;&#x7FA4;&#x306F;&#x9AD8;&#x5BC6;&#x5EA6;&#x3067;&#x3042;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308B;</li>
+<li>&#x57FA;&#x6E96;&#x70B9;&#x7FA4;&#x306F;&#x6BD4;&#x8F03;&#x70B9;&#x7FA4;&#x306E;&#x9818;&#x57DF;&#x3092;&#x5145;&#x5206;&#x306B;&#x30AB;&#x30D0;&#x30FC;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308B;</li>
+</ul>
+<p><img src="pic_level3.2/6.png" alt="img"></p>
+<h2 id="&#x57FA;&#x6E96;&#x70B9;&#x7FA4;&#x304C;&#x9AD8;&#x5BC6;&#x5EA6;&#x3067;&#x306A;&#x3044;&#x5834;&#x5408;&#x306F;&#xFF1F;">&#x57FA;&#x6E96;&#x70B9;&#x7FA4;&#x304C;&#x9AD8;&#x5BC6;&#x5EA6;&#x3067;&#x306A;&#x3044;&#x5834;&#x5408;&#x306F;&#xFF1F;</h2>
+<ul>
+<li>&quot;Local modeling&quot;<br>&#x57FA;&#x6E96;&#x70B9;&#x7FA4;&#x3092;&#x88DC;&#x9593;&#xFF08;&#x88DC;&#x5B8C;&#xFF09;&#x3059;&#x308B;&#x30E2;&#x30C7;&#x30EB;&#x3092;&#x751F;&#x6210;</li>
+</ul>
+<p><img src="pic_level3.2/7.png" alt="img"></p>
+<h2 id="&#x8DDD;&#x96E2;&#x306E;&#x30D2;&#x30B9;&#x30C8;&#x30B0;&#x30E9;&#x30E0;&#x8868;&#x793A;">&#x8DDD;&#x96E2;&#x306E;&#x30D2;&#x30B9;&#x30C8;&#x30B0;&#x30E9;&#x30E0;&#x8868;&#x793A;</h2>
+<ul>
+<li>gravel_b&#x3092;&#x9078;&#x629E;&#x3001;&#x30D2;&#x30B9;&#x30C8;&#x30B0;&#x30E9;&#x30E0;&#x3092;&#x8868;&#x793A;<ul>
+<li>Edit &gt; Scalar fields &gt; Show histogram</li>
+<li>&#x2192;&lt;1 mm &#x306E;&#x5024;&#x306B;&#x96C6;&#x4E2D;</li>
+</ul>
+</li>
+<li>&#x4F59;&#x5206;&#x306A;&#x5024;&#x3092;&#x9664;&#x5916;<ul>
+<li>Edit &gt; Scalar fields &gt; Filter by value</li>
+<li>[0.001 0.05] &gt;&gt; Export</li>
+</ul>
+</li>
+<li>&#x51FA;&#x529B;&#x3057;&#x305F;&#x70B9;&#x7FA4;&#x3067;SF&#x306E;&#x30D2;&#x30B9;&#x30C8;&#x30B0;&#x30E9;&#x30E0;&#x3092;&#x8868;&#x793A;<ul>
+<li>&#x30D7;&#x30ED;&#x30D1;&#x30C6;&#x30A3;&#x306E;&#x30AB;&#x30E9;&#x30FC;&#x30B9;&#x30B1;&#x30FC;&#x30EB;&#x3067;&#x8272;&#x5909;&#x66F4;&#x53EF;&#x80FD;</li>
+<li>X, Y, Z&#x5404;&#x65B9;&#x5411;&#x306E;&#x5024;&#xFF08;Split&#x6709;&#x52B9;&#x6642;&#xFF09;</li>
+</ul>
+</li>
+</ul>
+<p><img src="pic_level3.2/8.png" alt="img"></p>
+<h2 id="m3c2&#x30D7;&#x30E9;&#x30B0;&#x30A4;&#x30F3;">M3C2&#x30D7;&#x30E9;&#x30B0;&#x30A4;&#x30F3;</h2>
+<p><img src="pic_level3.2/9.png" alt="img"></p>
+<h2 id="m3c2&#x8DDD;&#x8DDD;&#x96E2;&#x96E2;">M3C2&#x8DDD;&#x8DDD;&#x96E2;&#x96E2;</h2>
+<ul>
+<li>&#x4E8C;&#x3064;&#x306E;&#x70B9;&#x7FA4;&#x3092;&#x9078;&#x629E;&#xFF08;Shift+&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#xFF09;<ul>
+<li>Plugins &gt; M3C2 distance</li>
+</ul>
+</li>
+<li>&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x8A2D;&#x5B9A;<ul>
+<li>Cloud #1: gravel_a, Cloud #1: gravel_b</li>
+<li>&#x201C;Guess params&#x201D;</li>
+<li>subsample cloud #1: 0.0004 (= 0.4 mm)</li>
+<li>Registration error: 0.001 (= 1 mm)</li>
+<li>Normals: default</li>
+</ul>
+</li>
+</ul>
+<p><img src="pic_level3.2/10.png" alt="img"></p>
+<h2 id="m3c2&#x8DDD;&#x96E2;-gravela">M3C2&#x8DDD;&#x96E2; gravel_a</h2>
+<p><img src="pic_level3.2/11.png" alt="img"></p>
+<h2 id="m3c2&#x8DDD;&#x96E2;-gravelb">M3C2&#x8DDD;&#x96E2; gravel_b</h2>
+<p><img src="pic_level3.2/12.png" alt="img"></p>
+<h2 id="m3c2&#x8DDD;&#x96E2;-m3c2-distance-output">M3C2&#x8DDD;&#x96E2; M3C2 distance output</h2>
+<p><img src="pic_level3.2/13.png" alt="img"></p>
+<p><img src="pic_level3.2/14.png" alt="img"></p>
+<h2 id="m3c2&#x8DDD;&#x96E2;-normal-dip-0&#x2013;90&#xB0;&#xB0;">M3C2&#x8DDD;&#x96E2; normal dip [0&#x2013;90&#xB0;&#xB0;]</h2>
+<p><img src="pic_level3.2/15.png" alt="img"></p>
+<h2 id="m3c2&#x8DDD;&#x96E2;-normal-dip-direction-0-360&#xB0;&#xB0;">M3C2&#x8DDD;&#x96E2; normal dip direction [0-360&#xB0;&#xB0;]</h2>
+<p><img src="pic_level3.2/16.png" alt="img"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../level3.1/level3.1.html" class="navigation navigation-prev " aria-label="Previous page: LEVEL 3.1 レジストレーション">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../../SfM-MVS/SfM-MVS.html" class="navigation navigation-next " aria-label="Next page: SfM多視点ステレオ測量">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"LEVEL 3.2 距離計算","level":"2.1.6","depth":2,"next":{"title":"SfM多視点ステレオ測量","level":"3.1","depth":1,"path":"SfM-MVS/SfM-MVS.md","ref":"./SfM-MVS/SfM-MVS.md","articles":[{"title":"SfMとは？","level":"3.1.1","depth":2,"path":"SfM-MVS/1_about_sfm/1_about_sfm.md","ref":"./SfM-MVS/1_about_sfm/1_about_sfm.md","articles":[]},{"title":"Photoscan","level":"3.1.2","depth":2,"path":"SfM-MVS/2_photoscan/2_photoscan.md","ref":"./SfM-MVS/2_photoscan/2_photoscan.md","articles":[]}]},"previous":{"title":"LEVEL 3.1 レジストレーション","level":"2.1.5","depth":2,"path":"cloudcompare/level3.1/level3.1.md","ref":"./cloudcompare/level3.1/level3.1.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","splitter","collapsible-menu","creativecommons"],"styles":{"website":"website.css"},"pluginsConfig":{"splitter":{},"collapsible-menu":{},"creativecommons":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"author","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"titile","gitbook":">= 3.0.0"},"file":{"path":"cloudcompare/level3.2/level3.2.md","mtime":"2017-10-10T02:56:35.708Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-10-10T04:48:01.303Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
