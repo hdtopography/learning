@@ -24,14 +24,14 @@ original page: <a href="http://topography.csis.u-tokyo.ac.jp/resources/170210_hd
 
 **基礎**
 
-* [LEVEL 0 インタフェース、表示、データの保存](./level0/level0.md#level-0-インタフェース表示データの保存)
-* [LEVEL 1 基本操作](./level1/level1.md#level-1-基本操作)
-* [LEVEL 2 スカラー値の操作](./level2/level2.md#スカラー値)
+* [LEVEL 0 インタフェース、表示、データの保存](./level0/level0.html#level-0-インタフェース表示データの保存)
+* [LEVEL 1 基本操作](./level1/level1.html#level-1-基本操作)
+* [LEVEL 2 スカラー値の操作](./level2/level2.html#スカラー値)
 
 **応用**
 
-* [LEVEL 3.1 レジストレーション](./level3.1/level3.1.md#レジストレーション)
-* [LEVEL 3.2 距離計算](./level3.2/level3.2.md#距離計算)
+* [LEVEL 3.1 レジストレーション](./level3.1/level3.1.html#レジストレーション)
+* [LEVEL 3.2 距離計算](./level3.2/level3.2.html#距離計算)
 * LEVEL 4 体積計算
 * 共有 Share
 * 点群データの表示システム
