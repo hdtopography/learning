@@ -20,7 +20,7 @@
 ### 7. [Workflow: Align Photos](./7.align_photo/7.align_photo.md#7-workflow-align-photos#8a-workflow-build-dense-cloud)
 ### 8. [Workflow: Build Dense cloud, およびBuild Mesh](./8.build_dense_cloud/8.build_dense_cloud.md#9-workflow-build-texture)
 ### 9. [Workflow: Build Texture](./9.build_texture/9.build_texture.md#9-workflow-build-texture)
-### 10. [Mask処理](./10.mask/10.maskmd#10mask処理)
+### 10. [Mask処理](./10.mask/10.mask.md#10mask処理)
 ### 11. [複数Chunk処理](./11.chunk/11.chunk.md#11-複数chunk処理)
 ---
 #### [参考資料・適用事例集](./appendix/appendix.md#参考1uav-sfmによる地図作成技術の概要)
