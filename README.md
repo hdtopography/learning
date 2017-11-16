@@ -16,6 +16,4 @@
 
 **CONTACT**  
 
-[![img](HD-topo_logo.png)](http://hdtopography.blogspot.jp/)
-
-[![img](logo_csis.png)](http://www.csis.u-tokyo.ac.jp/japanese/index.html)
+[![img](HD-topo_logo.png)](http://hdtopography.blogspot.jp/)  [![img](logo_csis.png)](http://www.csis.u-tokyo.ac.jp/japanese/index.html)
