@@ -9,7 +9,7 @@
     - [GIS学会2017Ver.](./SfM-MVS/GIS_uchiyama/README.md)
     - [JGU秋の学校2015Ver.](./SfM-MVS//obanawa/SfM-MVS.md#sfm多視点写真測量)
 - 低価格GNSS
-  - [RTKLIBによる解析（JGU夏の学校2018Ver](./GNSS/README.md)
+  - [RTKLIBによる解析（JGU夏の学校2018Ver.）](./GNSS/README.md)
 
 **CONTACT**  
 
