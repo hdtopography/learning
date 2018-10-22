@@ -21,7 +21,7 @@ GCPの配置と精度への影響
 ### [4. SfM技術Tips](./4.tips/4.tips.md)  
 精度を向上させるための知恵と工夫
 
-### [5. SfMとUAVの活用](.5.SfM_UAV/5.SfM/UAV.md)  
+### [5. SfMとUAVの活用](.5.SfM_UAV/5.SfM_UAV.md)  
 災害対応
 
 ---
