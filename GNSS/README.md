@@ -16,3 +16,7 @@
 ---
 
 本ページに関するお問い合わせは、管理者までお願いいたします。
+
+---
+
+[Topへ戻る](https://github.com/hdtopography/learning)
