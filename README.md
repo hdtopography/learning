@@ -9,7 +9,7 @@
 - SfM多視点ステレオ写真測量
     - [GIS学会2017Ver.](./SfM-MVS/GIS_uchiyama/README.md)
     - [JGU秋の学校2015Ver.](./SfM-MVS//obanawa/SfM-MVS.md#sfm多視点写真測量)
-    - [GIS学会2017Ver.](./SfM-MVS/GIS_uchiyama_2018/README.md) <u>NEW!!</u>
+    - [GIS学会2018Ver.](./SfM-MVS/GIS_uchiyama_2018/README.md) <u>NEW!!</u>
 - 点群処理
   - [CloudCompareの基本操作](./cloudcompare/CloudCompare.md)
 - 低価格GNSS
