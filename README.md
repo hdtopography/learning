@@ -22,4 +22,4 @@
 [![img](HD-topo_logo.png)](http://hdtopography.blogspot.jp/)  [![img](logo_csis.png)](http://www.csis.u-tokyo.ac.jp/japanese/index.html)
 
 管理者：小倉拓郎（東京大学・院，地形鮮明化プロジェクトRA）
-takuogu![img](./add.png =200x200)
+takuogu![img](./add.png)
