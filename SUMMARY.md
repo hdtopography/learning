@@ -16,7 +16,7 @@
 
 * [SfM多視点ステレオ測量ーGIS学会2017Ver.](./SfM-MVS/GIS_uchiyama/README.md)
 	* [写真測量の基礎](./SfM-MVS/GIS_uchiyama/1.summary/1.summary.md)
-	* [基幹技術](.SfM-MVS/GIS_uchiyama//2.technique/2.technique.md)
+	* [基幹技術](.SfM-MVS/GIS_uchiyama/2.technique/2.technique.md)
 	* [写真測量のソース（写真画像）](./SfM-MVS/GIS_uchiyama/3.source/3.source.md)
 	* [ハードウェア](./SfM-MVS/GIS_uchiyama/4.hardware/4.hardware.md)
 	* [PhotoScan初期設定](./SfM-MVS/GIS_uchiyama/5.setting/5.setting.md)
@@ -24,14 +24,14 @@
 	* [Workflow: Align Photos](./SfM-MVS/GIS_uchiyama/7.align_photo/7.align_photo.md)
 	* [Workflow: Build Dense cloud, およびBuild Mesh](./SfM-MVS/GIS_uchiyama/8.build_dense_cloud/8.build_dense_cloud.md)
 	* [Workflow: Build Texture](./SfM-MVS/GIS_uchiyama/9.build_texture/9.build_texture.md)
-	* [Mask処理](./SfM-MVS/GIS_uchiyama/10.mask/10.maskmd)
+	* [Mask処理](./SfM-MVS/GIS_uchiyama/10.mask/10.mask.md)
 	* [複数Chunk処理](./SfM-MVS/GIS_uchiyama/11.chunk/11.chunk.md)
 	* [参考資料・適用事例集](./SfM-MVS/GIS_uchiyama/appendix/appendix.md)
 
 
-* [SfM多視点ステレオ測量ーJGU2015秋の学校Ver.](./SfM-MVS/obanawa/SfM-MVS.md)
-	* [SfMとは？](./SfM-MVS/1_about_sfm/1_about_sfm.md)
-	* [Photoscan](./SfM-MVS/2_photoscan/2_photoscan.md)
+* [SfM多視点ステレオ測量ーJGU2015秋の学校Ver.](./SfM-MVS/obanawa/README.md)
+	* [SfMとは？](./SfM-MVS/obanawa/1_about_sfm/1_about_sfm.md)
+	* [Photoscan](./SfM-MVS/obanawa/2_photoscan/2_photoscan.md)
 
 
 * [RTKLIBによる解析（JGU夏の学校2018Ver.）](./GNSS/README.md)]
