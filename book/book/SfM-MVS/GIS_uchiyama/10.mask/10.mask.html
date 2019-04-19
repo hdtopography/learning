@@ -1,0 +1,773 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Mask処理 · titile</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="author">
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../11.chunk/11.chunk.html" />
+    
+    
+    <link rel="prev" href="../9.build_texture/9.build_texture.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Top
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../../UAV/">
+            
+                <a href="../../../UAV/">
+            
+                    
+                    UAV
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../../../UAV/UAV_jgufs2015/1.1.1_about_UAS/1.1.1_about_UAS.html">
+            
+                <a href="../../../UAV/UAV_jgufs2015/1.1.1_about_UAS/1.1.1_about_UAS.html">
+            
+                    
+                    1.1.1. UAS, SfM多視点写真測量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../../../UAV/UAV_jgufs2015/1.1.2.1_theory_LS/1.1.2.1_theory_LS.html">
+            
+                <a href="../../../UAV/UAV_jgufs2015/1.1.2.1_theory_LS/1.1.2.1_theory_LS.html">
+            
+                    
+                    1.1.2.1 原理解説（LS）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../../../UAV/UAV_jgufs2015/1.1.2.2_theory_GNSS/1.1.2.2_theory_GNSS.html">
+            
+                <a href="../../../UAV/UAV_jgufs2015/1.1.2.2_theory_GNSS/1.1.2.2_theory_GNSS.html">
+            
+                    
+                    1.1.2.2 原理解説（GNSS）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../../../UAV/UAV_jgufs2015/1.2.1_case_study_SfM/1.2.1_case_stady_SfM.html">
+            
+                <a href="../../../UAV/UAV_jgufs2015/1.2.1_case_study_SfM/1.2.1_case_stady_SfM.html">
+            
+                    
+                    1.2.1. 事例紹介(SfM)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../../../UAV/UAV_jgufs2015/1.2.2_case_study_TLS/1.2.2_case_study_TLS.html">
+            
+                <a href="../../../UAV/UAV_jgufs2015/1.2.2_case_study_TLS/1.2.2_case_study_TLS.html">
+            
+                    
+                    1.2.2. 事例紹介（TLS）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../../../UAV/UAV_jgufs2015/1.3_UAS_operation/1.3_UAS_operation.html">
+            
+                <a href="../../../UAV/UAV_jgufs2015/1.3_UAS_operation/1.3_UAS_operation.html">
+            
+                    
+                    1.3. UAS機材・操作説明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../../cloudcompare/cloudcompare.html">
+            
+                <a href="../../../cloudcompare/cloudcompare.html">
+            
+                    
+                    CloudCompare
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../../../cloudcompare/basic/basic.html">
+            
+                <a href="../../../cloudcompare/basic/basic.html">
+            
+                    
+                    点群データとは？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../../../cloudcompare/level0/level0.html">
+            
+                <a href="../../../cloudcompare/level0/level0.html">
+            
+                    
+                    LEVEL 0 インタフェース、表示、データの保存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../../../cloudcompare/level1/level1.html">
+            
+                <a href="../../../cloudcompare/level1/level1.html">
+            
+                    
+                    LEVEL 1 基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="../../../cloudcompare/level2/level2.html">
+            
+                <a href="../../../cloudcompare/level2/level2.html">
+            
+                    
+                    LEVEL 2 スカラー値の操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="../../../cloudcompare/level3.1/level3.1.html">
+            
+                <a href="../../../cloudcompare/level3.1/level3.1.html">
+            
+                    
+                    LEVEL 3.1 レジストレーション
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6" data-path="../../../cloudcompare/level3.2/level3.2.html">
+            
+                <a href="../../../cloudcompare/level3.2/level3.2.html">
+            
+                    
+                    LEVEL 3.2 距離計算
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    SfM多視点ステレオ測量ーGIS学会2017Ver.
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../1.summary/1.summary.html">
+            
+                <a href="../1.summary/1.summary.html">
+            
+                    
+                    写真測量の基礎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../../../.SfM-MVS/GIS_uchiyama/2.technique/2.technique.md">
+            
+                <span>
+            
+                    
+                    基幹技術
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../3.source/3.source.html">
+            
+                <a href="../3.source/3.source.html">
+            
+                    
+                    写真測量のソース（写真画像）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../4.hardware/4.hardware.html">
+            
+                <a href="../4.hardware/4.hardware.html">
+            
+                    
+                    ハードウェア
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="../5.setting/5.setting.html">
+            
+                <a href="../5.setting/5.setting.html">
+            
+                    
+                    PhotoScan初期設定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6" data-path="../6.lens/6.lens.html">
+            
+                <a href="../6.lens/6.lens.html">
+            
+                    
+                    Lens（レンズ歪み補正ソフトウェア）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7" data-path="../7.align_photo/7.align_photo.html">
+            
+                <a href="../7.align_photo/7.align_photo.html">
+            
+                    
+                    Workflow: Align Photos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8" data-path="../8.build_dense_cloud/8.build_dense_cloud.html">
+            
+                <a href="../8.build_dense_cloud/8.build_dense_cloud.html">
+            
+                    
+                    Workflow: Build Dense cloud, およびBuild Mesh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9" data-path="../9.build_texture/9.build_texture.html">
+            
+                <a href="../9.build_texture/9.build_texture.html">
+            
+                    
+                    Workflow: Build Texture
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.1.10" data-path="10.mask.html">
+            
+                <a href="10.mask.html">
+            
+                    
+                    Mask処理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.11" data-path="../11.chunk/11.chunk.html">
+            
+                <a href="../11.chunk/11.chunk.html">
+            
+                    
+                    複数Chunk処理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.12" data-path="../appendix/appendix.html">
+            
+                <a href="../appendix/appendix.html">
+            
+                    
+                    参考資料・適用事例集
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../obanawa/">
+            
+                <a href="../../obanawa/">
+            
+                    
+                    SfM多視点ステレオ測量ーJGU2015秋の学校Ver.
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../../obanawa/1_about_sfm/1_about_sfm.html">
+            
+                <a href="../../obanawa/1_about_sfm/1_about_sfm.html">
+            
+                    
+                    SfMとは？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../../obanawa/2_photoscan/2_photoscan.html">
+            
+                <a href="../../obanawa/2_photoscan/2_photoscan.html">
+            
+                    
+                    Photoscan
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../../../GNSS/">
+            
+                <a href="../../../GNSS/">
+            
+                    
+                    RTKLIBによる解析（JGU夏の学校2018Ver.）
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../../../GNSS/1.plan/1.plan.html">
+            
+                <a href="../../../GNSS/1.plan/1.plan.html">
+            
+                    
+                    計画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="../../../GNSS/2.measurement/2.measurement.html">
+            
+                <a href="../../../GNSS/2.measurement/2.measurement.html">
+            
+                    
+                    測量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" data-path="../../../GNSS/3.analysis/3.analysis.html">
+            
+                <a href="../../../GNSS/3.analysis/3.analysis.html">
+            
+                    
+                    解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.4" data-path="../../../GNSS/4.accuracy/4.accuracy.html">
+            
+                <a href="../../../GNSS/4.accuracy/4.accuracy.html">
+            
+                    
+                    精度検証
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >Mask処理</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="10----mask&#x51E6;&#x7406;">10.    Mask&#x51E6;&#x7406;</h1>
+<p>&#x3000;&#x5199;&#x771F;&#x6E2C;&#x91CF;&#x306E;&#x30BD;&#x30FC;&#x30B9;&#x753B;&#x50CF;&#x306B;&#x306F;&#x3001;&#x30E2;&#x30C7;&#x30EB;&#x5316;&#x3059;&#x308B;&#x969B;&#x306B;&#x4E0D;&#x5FC5;&#x8981;&#x306A;&#x90E8;&#x5206;&#x304C;&#x542B;&#x307E;&#x308C;&#x308B;&#xFF08;Fig9.1&#xFF09;&#x3002;&#x3053;&#x306E;&#x5834;&#x5408;&#x3001;&#x4E0D;&#x5FC5;&#x8981;&#x306A;&#x9818;&#x57DF;&#x306B;Mask&#x3092;&#x4F5C;&#x6210;&#x3059;&#x308B;&#x3053;&#x3068;&#x3067;&#x3001;&#x30E2;&#x30C7;&#x30EB;&#x306E;&#x751F;&#x6210;&#x5BFE;&#x8C61;&#x304B;&#x3089;&#x5916;&#x3059;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;&#xFF08;Fig.9.2&#xFF09;&#x3002;&#x3057;&#x304B;&#x3057;&#x3001;&#x901A;&#x5E38;&#x306E;&#x4F5C;&#x696D;&#x3067;&#x306F;100&#x679A;&#x3092;&#x8D85;&#x3048;&#x308B;&#x5199;&#x771F;&#x3092;&#x30BD;&#x30FC;&#x30B9;&#x3068;&#x3057;&#x3066;&#x5229;&#x7528;&#x3059;&#x308B;&#x3002;&#x3053;&#x308C;&#x3089;&#x3059;&#x3079;&#x3066;&#x306E;&#x5199;&#x771F;&#x306B;&#x5BFE;&#x3057;&#x3001;&#x624B;&#x52D5;&#x3067;&#x30DE;&#x30B9;&#x30AF;&#x751F;&#x6210;&#x4F5C;&#x696D;&#x3092;&#x884C;&#x3046;&#x306E;&#x306F;&#x3068;&#x3066;&#x3082;&#x73FE;&#x5B9F;&#x7684;&#x3067;&#x306F;&#x306A;&#x3044;&#x3002;&#x305D;&#x3053;&#x3067;&#x3001;&#x7C21;&#x6613;&#x306A;&#x65B9;&#x6CD5;&#x3067;&#x52B9;&#x7387;&#x3088;&#x304F;Mask&#x3092;&#x751F;&#x6210;&#x3059;&#x308B;&#x624B;&#x6CD5;&#x3092;&#x89E3;&#x8AAC;&#x3059;&#x308B;&#x3002;<br>&#x3000;&#x306A;&#x304A;&#x3001;&#x3053;&#x306E;&#x624B;&#x6CD5;&#x306F;Arbitrary&#x306A;&#x30E2;&#x30C7;&#x30EB;&#x306B;&#x9650;&#x3089;&#x305A;&#x3001;Height field&#x3067;&#x51E6;&#x7406;&#x3059;&#x308B;&#x30E2;&#x30C7;&#x30EB;&#x306B;&#x5BFE;&#x3057;&#x3066;&#x3082;&#x6709;&#x52B9;&#x3067;&#x3042;&#x308B;&#xFF08;&#x4F8B;&#xFF1A;&#x9ED2;&#x3044;&#x67A0;&#x306E;&#x3042;&#x308B;&#x822A;&#x7A7A;&#x5199;&#x771F;&#x306E;&#x9ED2;&#x67A0;&#x306E;&#x5185;&#x5074;&#x3060;&#x3051;&#x3092;&#x51E6;&#x7406;&#x3059;&#x308B;&#x5834;&#x5408;&#xFF09;&#x3002;  </p>
+<p><img src="pic/1.png" alt="img"><br>Fig.10.1 &#x30BD;&#x30FC;&#x30B9;&#x753B;&#x50CF;&#x3002;&#x80CC;&#x666F;&#x306E;&#x65B9;&#x773C;&#x6A21;&#x69D8;&#x306F;&#x30E2;&#x30C7;&#x30EB;&#x5316;&#x306E;&#x969B;&#x306B;&#x4E0D;&#x5FC5;&#x8981;&#x306A;&#x9818;&#x57DF;&#x3002;  </p>
+<p><img src="pic/2.png" alt="img"><br>Fig.10.2 &#x30BD;&#x30FC;&#x30B9;&#x753B;&#x50CF;&#x306B;&#x5BFE;&#x3057;Mask&#x3092;&#x9069;&#x7528;&#x3057;&#x305F;&#x4F8B;&#x3002;&#x8584;&#x304F;&#x9ED2;&#x304F;&#x5857;&#x308A;&#x3064;&#x3076;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x9818;&#x57DF;&#x304C;Mask&#x3002;Mask&#x3055;&#x308C;&#x305F;&#x9818;&#x57DF;&#x306F;&#x30E2;&#x30C7;&#x30EB;&#x751F;&#x6210;&#x306E;&#x8A08;&#x7B97;&#x306B;&#x4F7F;&#x308F;&#x308C;&#x306A;&#x3044;&#x3002;  </p>
+<h2 id="1-&#x307E;&#x305A;&#x306F;&#x521D;&#x56DE;&#x306E;build-mesh&#x307E;&#x3067;&#x306E;&#x51E6;&#x7406;&#x3092;&#x884C;&#x3046;&#x3002;">1) &#x307E;&#x305A;&#x306F;&#x521D;&#x56DE;&#x306E;Build Mesh&#x307E;&#x3067;&#x306E;&#x51E6;&#x7406;&#x3092;&#x884C;&#x3046;&#x3002;</h2>
+<hr>
+<p>&#x3000;&#x6700;&#x7D42;&#x7684;&#x306A;&#x30E2;&#x30C7;&#x30EB;&#x3092;&#x4F5C;&#x308B;&#x308F;&#x3051;&#x3067;&#x306F;&#x306A;&#x3044;&#x306E;&#x3067;&#x3001;Build Dense cloud&#x306E;Quality&#x306F;&#x4F4E;&#x304F;&#xFF08;Lowest&#xFF09;&#x3001;Build Mesh&#x306E;Face count&#x306F;&#x5C11;&#x306A;&#x304F;&#xFF08;Low&#xFF09;&#x306E;&#x8A2D;&#x5B9A;&#x3067;&#x51E6;&#x7406;&#x3059;&#x308B;&#x3002;</p>
+<p><img src="pic/3.png" alt="img"><br>Fig.10.3 &#x521D;&#x56DE;&#x306E;Build Mesh&#x304C;&#x5B8C;&#x4E86;&#x3057;&#x305F;&#x76F4;&#x5F8C;&#x3002;&#x4E0D;&#x5FC5;&#x8981;&#x306A;&#x9818;&#x57DF;&#x3084;&#x30B4;&#x30DF;&#x304C;&#x30E2;&#x30C7;&#x30EB;&#x5316;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x3002;</p>
+<h2 id="2----&#x30E2;&#x30C7;&#x30EB;&#x5316;&#x3057;&#x306A;&#x304F;&#x3066;&#x3088;&#x3044;&#x9818;&#x57DF;&#x306A;&#x3069;&#x3092;&#x524A;&#x9664;&#x3057;&#x3001;&#x6574;&#x5F62;&#x3059;&#x308B;&#x3002;">2)    &#x30E2;&#x30C7;&#x30EB;&#x5316;&#x3057;&#x306A;&#x304F;&#x3066;&#x3088;&#x3044;&#x9818;&#x57DF;&#x306A;&#x3069;&#x3092;&#x524A;&#x9664;&#x3057;&#x3001;&#x6574;&#x5F62;&#x3059;&#x308B;&#x3002;</h2>
+<hr>
+<p><img src="pic/4.png" alt="img"><br>Fig.10.4 &#x30E2;&#x30C7;&#x30EB;&#x5316;&#x3057;&#x306A;&#x304F;&#x3066;&#x3088;&#x3044;&#x9818;&#x57DF;&#x3092;&#x524A;&#x9664;&#x3059;&#x308B;&#x3002;&#x30C4;&#x30FC;&#x30EB;&#x30D0;&#x30FC;&#x306E;&#x300C;Free-Form selection&#x300D;&#x30C4;&#x30FC;&#x30EB;&#x306A;&#x3069;&#x3067;&#x4E0D;&#x5FC5;&#x8981;&#x306A;&#x9818;&#x57DF;&#x3092;&#x9078;&#x629E;&#x3057;&#x3001;&#x300C;Delete Selection&#x300D;&#x30DC;&#x30BF;&#x30F3;&#x3092;&#x62BC;&#x3057;&#x3066;&#x524A;&#x9664;&#x3059;&#x308B;&#x4F5C;&#x696D;&#x3092;&#x884C;&#x3046;&#x3002;</p>
+<h2 id="3----&#x6574;&#x5F62;&#x3057;&#x305F;&#x30E2;&#x30C7;&#x30EB;&#x304B;&#x3089;mask&#x3092;&#x81EA;&#x52D5;&#x751F;&#x6210;&#x3059;&#x308B;&#x3002;&#x300C;tools&#x300D;-&#x300C;import&#x300D;-&#x300C;import-masks&#x300D;&#x3092;&#x9078;&#x629E;&#x3059;&#x308B;&#xFF08;fig95&#xFF09;&#x3002;">3)    &#x6574;&#x5F62;&#x3057;&#x305F;&#x30E2;&#x30C7;&#x30EB;&#x304B;&#x3089;Mask&#x3092;&#x81EA;&#x52D5;&#x751F;&#x6210;&#x3059;&#x308B;&#x3002;&#x300C;Tools&#x300D;-&#x300C;Import&#x300D;-&#x300C;Import masks&#x2026;&#x300D;&#x3092;&#x9078;&#x629E;&#x3059;&#x308B;&#xFF08;Fig.9.5&#xFF09;&#x3002;</h2>
+<hr>
+<p>&#x3000;&#x4EE5;&#x4E0B;&#x306E;&#x8A2D;&#x5B9A;&#x3092;&#x884C;&#x3044;&#x3001;OK&#x3092;&#x62BC;&#x3059;&#x3068;Mask&#x304C;&#x81EA;&#x52D5;&#x751F;&#x6210;&#x3055;&#x308C;&#x308B;&#x3002;</p>
+<p><img src="pic/5.png" alt="img"><br>Fig.10.5 Import Mask&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x3002;<br>Import masks for&#xFF1A;&#x300C;Active chunks&#x300D;&#x3092;&#x9078;&#x629E;&#x3059;&#x308B;&#x3002;&#x8907;&#x6570;&#x306E;Chunk&#x304C;&#x3042;&#x308B;&#x5834;&#x5408;&#x306F;&#x6CE8;&#x610F;&#x3059;&#x308B;&#x3002;Workspace&#x3067;&#x9ED2;&#x592A;&#x6587;&#x5B57;&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x308B;Chunk&#x304C;Active chunk&#x3002;<br>Method&#xFF1A;&#x300C;From Model&#x300D;&#x3092;&#x9078;&#x629E;&#x3002;</p>
+<h2 id="4----&#x518D;&#x5EA6;&#x3001;build-geometry&#x51E6;&#x7406;&#x3092;&#x5B9F;&#x65BD;&#x3059;&#x308B;&#x3068;&#x3001;mask&#x3057;&#x305F;&#x9818;&#x57DF;&#x304C;&#x7121;&#x8996;&#x3055;&#x308C;&#x308B;&#x305F;&#x3081;&#x3001;&#x3088;&#x308A;&#x30AD;&#x30EC;&#x30A4;&#x306A;&#x30E2;&#x30C7;&#x30EB;&#x304C;&#x751F;&#x6210;&#x3055;&#x308C;&#x308B;&#xFF08;fig106&#xFF09;&#x3002;">4)    &#x518D;&#x5EA6;&#x3001;Build Geometry&#x51E6;&#x7406;&#x3092;&#x5B9F;&#x65BD;&#x3059;&#x308B;&#x3068;&#x3001;Mask&#x3057;&#x305F;&#x9818;&#x57DF;&#x304C;&#x7121;&#x8996;&#x3055;&#x308C;&#x308B;&#x305F;&#x3081;&#x3001;&#x3088;&#x308A;&#x30AD;&#x30EC;&#x30A4;&#x306A;&#x30E2;&#x30C7;&#x30EB;&#x304C;&#x751F;&#x6210;&#x3055;&#x308C;&#x308B;&#xFF08;Fig.10.6&#xFF09;&#x3002;</h2>
+<hr>
+<p><img src="pic/6.png" alt="img"><br>Fig.10.6 Mask&#x304C;&#x9069;&#x7528;&#x3055;&#x308C;&#x305F;&#x305F;&#x3081;&#x306B;&#x3001;&#x4E0D;&#x5FC5;&#x8981;&#x306A;&#x9818;&#x57DF;&#x3084;&#x30B4;&#x30DF;&#x304C;&#x30E2;&#x30C7;&#x30EB;&#x5316;&#x3055;&#x308C;&#x306A;&#x304F;&#x306A;&#x3063;&#x305F;&#x3002;  </p>
+<h2 id="5----&#x5FC5;&#x8981;&#x306B;&#x5FDC;&#x3058;&#x3066;2&#xFF5E;4&#x306E;&#x5DE5;&#x7A0B;&#x3092;&#x7E70;&#x308A;&#x8FD4;&#x3059;&#x3002;">5)    &#x5FC5;&#x8981;&#x306B;&#x5FDC;&#x3058;&#x3066;2)&#xFF5E;4)&#x306E;&#x5DE5;&#x7A0B;&#x3092;&#x7E70;&#x308A;&#x8FD4;&#x3059;&#x3002;</h2>
+<hr>
+<h2 id="6----&#x30B4;&#x30DF;&#x3084;&#x4E0D;&#x5FC5;&#x8981;&#x9818;&#x57DF;&#x304C;&#x306A;&#x304F;&#x306A;&#x3063;&#x305F;&#x3089;&#x3001;&#x3088;&#x308A;quality&#x304C;&#x9AD8;&#x304F;&#x3001;face&#x306E;&#x591A;&#x3044;&#x30E2;&#x30C7;&#x30EB;&#x3092;&#x8A08;&#x7B97;&#x3059;&#x308B;&#x3002;">6)    &#x30B4;&#x30DF;&#x3084;&#x4E0D;&#x5FC5;&#x8981;&#x9818;&#x57DF;&#x304C;&#x306A;&#x304F;&#x306A;&#x3063;&#x305F;&#x3089;&#x3001;&#x3088;&#x308A;Quality&#x304C;&#x9AD8;&#x304F;&#x3001;Face&#x306E;&#x591A;&#x3044;&#x30E2;&#x30C7;&#x30EB;&#x3092;&#x8A08;&#x7B97;&#x3059;&#x308B;&#x3002;</h2>
+<hr>
+<p>&#x3000;Photos&#x30DA;&#x30A4;&#x30F3;&#x306E;&#x300C;Show masks&#x300D;&#x30DC;&#x30BF;&#x30F3;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3059;&#x308B;&#x3068;&#x3001;&#x30BD;&#x30FC;&#x30B9;&#x306E;&#x5199;&#x771F;&#x753B;&#x50CF;&#x306B;&#x9069;&#x7528;&#x3055;&#x308C;&#x305F;Mask&#x3092;&#x4E00;&#x89A7;&#x3067;&#x78BA;&#x8A8D;&#x3067;&#x304D;&#x308B;&#xFF08;Fig.10.7&#xFF09;&#x3002;</p>
+<p><img src="pic/7.png" alt="img"><br>Fig.10.7 Photos&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x304B;&#x3089;&#x300C;Show masks&#x300D;&#x30DC;&#x30BF;&#x30F3;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x305F;&#x69D8;&#x5B50;<br>&#x9ED2;&#x304C;Mask&#x3002;&#x767D;&#x304C;&#x4E09;&#x6B21;&#x5143;&#x30E2;&#x30C7;&#x30EB;&#x306E;&#x8A08;&#x7B97;&#x5BFE;&#x8C61;&#x9818;&#x57DF;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../9.build_texture/9.build_texture.html" class="navigation navigation-prev " aria-label="Previous page: Workflow: Build Texture">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../11.chunk/11.chunk.html" class="navigation navigation-next " aria-label="Next page: 複数Chunk処理">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Mask処理","level":"4.1.10","depth":2,"next":{"title":"複数Chunk処理","level":"4.1.11","depth":2,"path":"SfM-MVS/GIS_uchiyama/11.chunk/11.chunk.md","ref":"./SfM-MVS/GIS_uchiyama/11.chunk/11.chunk.md","articles":[]},"previous":{"title":"Workflow: Build Texture","level":"4.1.9","depth":2,"path":"SfM-MVS/GIS_uchiyama/9.build_texture/9.build_texture.md","ref":"./SfM-MVS/GIS_uchiyama/9.build_texture/9.build_texture.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","splitter","collapsible-menu","creativecommons"],"styles":{"website":"website.css"},"pluginsConfig":{"splitter":{},"collapsible-menu":{},"creativecommons":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"author","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"titile","gitbook":">= 3.0.0"},"file":{"path":"SfM-MVS/GIS_uchiyama/10.mask/10.mask.md","mtime":"2018-08-29T15:00:37.487Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-04-19T07:04:44.714Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
