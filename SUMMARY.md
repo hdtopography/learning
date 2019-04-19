@@ -21,7 +21,7 @@
 
 * [SfM多視点ステレオ測量ーGIS学会2017Ver.](./SfM-MVS/GIS_uchiyama/README.md)
 	* [写真測量の基礎](./SfM-MVS/GIS_uchiyama/1.summary/1.summary.md)
-	* [基幹技術](.SfM-MVS/GIS_uchiyama/2.technique/2.technique.md)
+	* [基幹技術](./SfM-MVS/GIS_uchiyama/2.technique/2.technique.md)
 	* [写真測量のソース（写真画像）](./SfM-MVS/GIS_uchiyama/3.source/3.source.md)
 	* [ハードウェア](./SfM-MVS/GIS_uchiyama/4.hardware/4.hardware.md)
 	* [PhotoScan初期設定](./SfM-MVS/GIS_uchiyama/5.setting/5.setting.md)
