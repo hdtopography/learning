@@ -1,6 +1,6 @@
 {
-    "title": "titile",
-    "author": "author",
+    "title": "高精細地形情報取得のためのオープン教材",
+    "author": "HD-Topography Project",
     "gitbook": ">= 3.0.0",
     "plugins": [
         "-sharing",
