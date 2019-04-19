@@ -1,0 +1,663 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Lens（レンズ歪み補正ソフトウェア） · titile</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="author">
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../7.align_photo/7.align_photo.html" />
+    
+    
+    <link rel="prev" href="../5.setting/5.setting.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Top
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    UAV
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../../UAV/UAV_jgufs2015/UAV_jgufs2015.html">
+            
+                <a href="../../../UAV/UAV_jgufs2015/UAV_jgufs2015.html">
+            
+                    
+                    JGU2015秋の学校Ver)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <span>
+            
+                    
+                    UAVの安全運用と点群データの解析
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../../cloudcompare/cloudcompare.html">
+            
+                <a href="../../../cloudcompare/cloudcompare.html">
+            
+                    
+                    CloudCompare
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../../../cloudcompare/basic/basic.html">
+            
+                <a href="../../../cloudcompare/basic/basic.html">
+            
+                    
+                    点群データとは？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../../../cloudcompare/level0/level0.html">
+            
+                <a href="../../../cloudcompare/level0/level0.html">
+            
+                    
+                    LEVEL 0 インタフェース、表示、データの保存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../../../cloudcompare/level1/level1.html">
+            
+                <a href="../../../cloudcompare/level1/level1.html">
+            
+                    
+                    LEVEL 1 基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../../../cloudcompare/level2/level2.html">
+            
+                <a href="../../../cloudcompare/level2/level2.html">
+            
+                    
+                    LEVEL 2 スカラー値の操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../../../cloudcompare/level3.1/level3.1.html">
+            
+                <a href="../../../cloudcompare/level3.1/level3.1.html">
+            
+                    
+                    LEVEL 3.1 レジストレーション
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../../../cloudcompare/level3.2/level3.2.html">
+            
+                <a href="../../../cloudcompare/level3.2/level3.2.html">
+            
+                    
+                    LEVEL 3.2 距離計算
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    SfM多視点ステレオ測量ーGIS学会2017Ver.
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../1.summary/1.summary.html">
+            
+                <a href="../1.summary/1.summary.html">
+            
+                    
+                    写真測量の基礎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../../../.SfM-MVS/GIS_uchiyama/2.technique/2.technique.md">
+            
+                <span>
+            
+                    
+                    基幹技術
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../3.source/3.source.html">
+            
+                <a href="../3.source/3.source.html">
+            
+                    
+                    写真測量のソース（写真画像）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="../4.hardware/4.hardware.html">
+            
+                <a href="../4.hardware/4.hardware.html">
+            
+                    
+                    ハードウェア
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="../5.setting/5.setting.html">
+            
+                <a href="../5.setting/5.setting.html">
+            
+                    
+                    PhotoScan初期設定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.1.6" data-path="6.lens.html">
+            
+                <a href="6.lens.html">
+            
+                    
+                    Lens（レンズ歪み補正ソフトウェア）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.7" data-path="../7.align_photo/7.align_photo.html">
+            
+                <a href="../7.align_photo/7.align_photo.html">
+            
+                    
+                    Workflow: Align Photos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8" data-path="../8.build_dense_cloud/8.build_dense_cloud.html">
+            
+                <a href="../8.build_dense_cloud/8.build_dense_cloud.html">
+            
+                    
+                    Workflow: Build Dense cloud, およびBuild Mesh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.9" data-path="../9.build_texture/9.build_texture.html">
+            
+                <a href="../9.build_texture/9.build_texture.html">
+            
+                    
+                    Workflow: Build Texture
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.10" data-path="../10.mask/10.maskmd">
+            
+                <span>
+            
+                    
+                    Mask処理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.11" data-path="../11.chunk/11.chunk.html">
+            
+                <a href="../11.chunk/11.chunk.html">
+            
+                    
+                    複数Chunk処理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.12" data-path="../appendix/appendix.html">
+            
+                <a href="../appendix/appendix.html">
+            
+                    
+                    参考資料・適用事例集
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../obanawa/SfM-MVS.html">
+            
+                <a href="../../obanawa/SfM-MVS.html">
+            
+                    
+                    SfM多視点ステレオ測量ーJGU2015秋の学校Ver.
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../../1_about_sfm/1_about_sfm.md">
+            
+                <span>
+            
+                    
+                    SfMとは？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../../2_photoscan/2_photoscan.md">
+            
+                <span>
+            
+                    
+                    Photoscan
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >Lens（レンズ歪み補正ソフトウェア）</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="6----lens&#xFF08;&#x30EC;&#x30F3;&#x30BA;&#x6B6A;&#x307F;&#x88DC;&#x6B63;&#x30BD;&#x30D5;&#x30C8;&#x30A6;&#x30A7;&#x30A2;&#xFF09;">6.    Lens&#xFF08;&#x30EC;&#x30F3;&#x30BA;&#x6B6A;&#x307F;&#x88DC;&#x6B63;&#x30BD;&#x30D5;&#x30C8;&#x30A6;&#x30A7;&#x30A2;&#xFF09;</h1>
+<p>&#x3000;&#x5199;&#x771F;&#x753B;&#x50CF;&#x306E;&#x30EC;&#x30F3;&#x30BA;&#x6B6A;&#x307F;&#x3092;&#x9664;&#x53BB;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E;&#x30EC;&#x30F3;&#x30BA;&#x6B6A;&#x307F;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x3092;&#x8A08;&#x7B97;&#x3059;&#x308B;&#x30BD;&#x30D5;&#x30C8;&#x30A6;&#x30A7;&#x30A2;&#x300C;Lens&#x300D;&#x306F;&#x7121;&#x511F;&#x3067;&#x5229;&#x7528;&#x3067;&#x304D;&#x308B;&#x3002;&#x3053;&#x306E;&#x30BD;&#x30D5;&#x30C8;&#x30A6;&#x30A7;&#x30A2;&#x3067;&#x624B;&#x6301;&#x3061;&#x306E;&#x30AB;&#x30E1;&#x30E9;&#x306E;&#x30EC;&#x30F3;&#x30BA;&#x6B6A;&#x307F;&#x3092;&#x88DC;&#x6B63;&#x3059;&#x308B;&#x3053;&#x3068;&#x3067;&#x3001;&#x3088;&#x308A;&#x9AD8;&#x7CBE;&#x5EA6;&#x306A;3D&#x30E2;&#x30C7;&#x30EB;&#x306E;&#x69CB;&#x7BC9;&#x304C;&#x53EF;&#x80FD;&#x306B;&#x306A;&#x308B;&#x3002;&#x4EE5;&#x4E0B;&#x306B;&#x30EC;&#x30F3;&#x30BA;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x53D6;&#x5F97;&#x307E;&#x3067;&#x306E;&#x6D41;&#x308C;&#x3092;&#x89E3;&#x8AAC;&#x3059;&#x308B;&#x3002;</p>
+<h2 id="1-lens&#x3092;&#x8D77;&#x52D5;&#x3059;&#x308B;&#x3002;">1. Lens&#x3092;&#x8D77;&#x52D5;&#x3059;&#x308B;&#x3002;</h2>
+<hr>
+<p><img src="pic/1.png" alt="img"></p>
+<h2 id="2----show-chessboard&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3002;&#x753B;&#x9762;&#x3044;&#x3063;&#x3071;&#x3044;&#x306B;&#x767D;&#x9ED2;&#x306E;&#x6A21;&#x69D8;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x3002;">2.    Show chessboard&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3002;&#x753B;&#x9762;&#x3044;&#x3063;&#x3071;&#x3044;&#x306B;&#x767D;&#x9ED2;&#x306E;&#x6A21;&#x69D8;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x3002;</h2>
+<hr>
+<p><img src="pic/2.png" alt="img"><br>&#x2191;&#x30E2;&#x30CB;&#x30BF;&#x306B;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x6A21;&#x69D8;&#x2191;</p>
+<h2 id="3----&#x7A7A;&#x64AE;&#x306B;&#x4F7F;&#x3046;&#x30AB;&#x30E1;&#x30E9;&#x3067;&#x30E2;&#x30CB;&#x30BF;&#x306B;&#x8868;&#x793A;&#x3055;&#x308C;&#x305F;chessborad&#x3092;&#x30AB;&#x30E1;&#x30E9;&#x306E;&#x89D2;&#x5EA6;&#x3092;&#x50C5;&#x304B;&#x306B;&#x305A;&#x3089;&#x3057;&#x306A;&#x304C;&#x3089;3&#x679A;&#x4EE5;&#x4E0A;&#x64AE;&#x5F71;&#x3059;&#x308B;&#x3002;">3.    &#x7A7A;&#x64AE;&#x306B;&#x4F7F;&#x3046;&#x30AB;&#x30E1;&#x30E9;&#x3067;&#x30E2;&#x30CB;&#x30BF;&#x306B;&#x8868;&#x793A;&#x3055;&#x308C;&#x305F;Chessborad&#x3092;&#x30AB;&#x30E1;&#x30E9;&#x306E;&#x89D2;&#x5EA6;&#x3092;&#x50C5;&#x304B;&#x306B;&#x305A;&#x3089;&#x3057;&#x306A;&#x304C;&#x3089;3&#x679A;&#x4EE5;&#x4E0A;&#x64AE;&#x5F71;&#x3059;&#x308B;&#x3002;</h2>
+<hr>
+<p>&#x753B;&#x50CF;&#x306F;&#x591A;&#x3051;&#x308C;&#x3070;&#x591A;&#x3044;&#x307B;&#x3069;&#x826F;&#x3044;&#x3002;20&#x679A;&#x304F;&#x3089;&#x3044;&#x64AE;&#x5F71;&#x3057;&#x305F;&#x3002;</p>
+<p><img src="pic/3.png" alt="img"><br>&#x2191;&#x64AE;&#x5F71;&#x306E;&#x69D8;&#x5B50;&#x2191;</p>
+<p>&#x203B;&#x753B;&#x9762;&#x306E;&#x4E2D;&#x592E;&#x306B;&#x30EC;&#x30F3;&#x30BA;&#x3092;&#x636E;&#x3048;&#x3066;&#x3001;&#x5DE6;&#x306B;&#x5C11;&#x3057;&#x632F;&#x3063;&#x3066;&#x4E00;&#x679A;&#x3001;&#x6B63;&#x9762;&#x306B;&#x5411;&#x3051;&#x3066;&#x4E00;&#x679A;&#x3001;&#x53F3;&#x306B;&#x5C11;&#x3057;&#x632F;&#x3063;&#x3066;&#x4E00;&#x679A;&#x64AE;&#x5F71;&#x3059;&#x308B;&#x3002;&#x679A;&#x6570;&#x306F;&#x591A;&#x304F;&#x3066;&#x3082;&#x826F;&#x3044;&#x3002;<br>&#x203B;&#x3067;&#x304D;&#x308B;&#x304B;&#x304E;&#x308A;&#x5927;&#x304D;&#x306A;&#x30E2;&#x30CB;&#x30BF;&#x3092;&#x4F7F;&#x3046;&#x3002;&#x30E2;&#x30CB;&#x30BF;&#x304C;&#x5B8C;&#x5168;&#x306B;&#x5E73;&#x9762;&#x3067;&#x3042;&#x308B;&#x3068;&#x4EEE;&#x5B9A;&#x3057;&#x3066;&#x3001;&#x30EC;&#x30F3;&#x30BA;&#x3086;&#x304C;&#x307F;&#x3092;&#x6C42;&#x3081;&#x308B;&#x305F;&#x3081;&#x3001;&#x6DB2;&#x6676;&#x30D7;&#x30ED;&#x30B8;&#x30A7;&#x30AF;&#x30BF;&#x30FC;&#x306E;&#x30B9;&#x30AF;&#x30EA;&#x30FC;&#x30F3;&#x6295;&#x5F71;&#x6620;&#x50CF;&#x306F;&#x4F7F;&#x7528;&#x3067;&#x304D;&#x306A;&#x3044;&#x3002;<br>&#x203B;&#x30E2;&#x30CB;&#x30BF;&#x306E;&#x67A0;&#x304C;&#x64AE;&#x5F71;&#x753B;&#x50CF;&#x306B;&#x5165;&#x3063;&#x3066;&#x3082;&#x554F;&#x984C;&#x306A;&#x3044;<br>&#x203B;&#x7D5E;&#x308A;&#x5024;&#x3067;&#x30EC;&#x30F3;&#x30BA;&#x7279;&#x6027;&#x304C;&#x5909;&#x308F;&#x308B;&#x305F;&#x3081;&#x3001;&#x7D5E;&#x308A;&#x306F;&#x7A7A;&#x64AE;&#x6642;&#x3068;&#x540C;&#x3058;&#x8A2D;&#x5B9A;&#x306B;&#x3059;&#x308B;<br>&#x203B;&#x540C;&#x3058;&#x304F;&#x30EC;&#x30F3;&#x30BA;&#x7279;&#x6027;&#x304C;&#x5909;&#x308F;&#x308B;&#x305F;&#x3081;&#x3001;&#x30DE;&#x30AF;&#x30ED;&#x30E2;&#x30FC;&#x30C9;&#x306B;&#x3057;&#x306A;&#x3044;
+&#x203B;&#x624B;&#x3076;&#x308C;&#x3057;&#x306A;&#x3044;&#x3053;&#x3068;<br>&#x203B;&#x86CD;&#x5149;&#x706F;&#x3084;&#x5916;&#x306E;&#x5149;&#x304C;&#x30E2;&#x30CB;&#x30BF;&#x306B;&#x53CD;&#x5C04;&#x3057;&#x306A;&#x3044;&#x74B0;&#x5883;&#x3067;&#x64AE;&#x5F71;&#x3059;&#x308B;&#x3053;&#x3068;<br>&#x203B;Chessborad&#x3092;&#x3001;&#x6DB2;&#x6676;&#x30D7;&#x30ED;&#x30B8;&#x30A7;&#x30AF;&#x30BF;&#x30B9;&#x30AF;&#x30EA;&#x30FC;&#x30F3;&#x306A;&#x3069;&#x306E;&#x6B6A;&#x307F;&#x306E;&#x3042;&#x308B;&#x7269;&#x4F53;&#x306B;&#x8868;&#x793A;&#x3057;&#x306A;&#x3044;&#x3053;&#x3068;<br>&#x203B;&#x30BA;&#x30FC;&#x30E0;&#x30EC;&#x30F3;&#x30BA;&#x306F;&#x3001;&#x93E1;&#x7B52;&#x304C;&#x52D5;&#x304B;&#x306A;&#x3044;&#x3088;&#x3046;&#x306B;&#x30AC;&#x30E0;&#x30C6;&#x30FC;&#x30D7;&#x7B49;&#x3067;&#x56FA;&#x5B9A;&#x3059;&#x308B;<br>&#x203B;&#x54C1;&#x756A;&#x304C;&#x540C;&#x3058;&#x3067;&#x3082;&#x500B;&#x4F53;&#x304C;&#x9055;&#x3048;&#x3070;&#x3001;&#x7570;&#x306A;&#x308B;&#x30EC;&#x30F3;&#x30BA;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x3092;&#x6301;&#x3064;&#x3002;&#x305D;&#x308C;&#x305E;&#x308C;&#x72EC;&#x7ACB;&#x3057;&#x3066;&#x8A08;&#x6E2C;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308B;<br>&#x203B;&#x30AA;&#x30FC;&#x30D0;&#x30FC;&#x30DB;&#x30FC;&#x30EB;&#x306B;&#x51FA;&#x3059;&#x306A;&#x3069;&#x3001;&#x30EC;&#x30F3;&#x30BA;&#x30FB;CMOS&#x306E;&#x69CB;&#x9020;&#x306B;&#x89E6;&#x308C;&#x308B;&#x4F5C;&#x696D;&#x3092;&#x884C;&#x3063;&#x305F;&#x5834;&#x5408;&#x306F;&#x3001;&#x518D;&#x5EA6;&#x3001;&#x8A08;&#x6E2C;&#x3092;&#x884C;&#x3046;<br>&#x203B;&#x30D3;&#x30EB;&#x30C8;&#x30A4;&#x30F3;&#x30EC;&#x30F3;&#x30BA;&#x30D7;&#x30ED;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x304C;&#x9069;&#x7528;&#x3055;&#x308C;&#x306A;&#x3044;&#x5199;&#x771F;&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x3053;&#x3068;&#x3002;RAW&#x5F62;&#x5F0F;&#x304C;&#x30D9;&#x30B9;&#x30C8;  </p>
+<h2 id="4----&#x4EE5;&#x4E0B;&#x306E;&#x4F8B;&#x3067;&#x306F;&#x3001;6&#x679A;&#x306E;&#x753B;&#x50CF;&#x3092;&#x64AE;&#x5F71;&#x3057;&#x305F;&#x3002;">4.    &#x4EE5;&#x4E0B;&#x306E;&#x4F8B;&#x3067;&#x306F;&#x3001;6&#x679A;&#x306E;&#x753B;&#x50CF;&#x3092;&#x64AE;&#x5F71;&#x3057;&#x305F;&#x3002;</h2>
+<hr>
+<p><img src="pic/4.png" alt="img"></p>
+<h2 id="5----&#x64AE;&#x5F71;&#x3057;&#x305F;&#x753B;&#x50CF;&#x3092;lens&#x306B;&#x8FFD;&#x52A0;&#xFF08;add-photos&#xFF09;&#x3059;&#x308B;&#x3002;">5.    &#x64AE;&#x5F71;&#x3057;&#x305F;&#x753B;&#x50CF;&#x3092;Lens&#x306B;&#x8FFD;&#x52A0;&#xFF08;Add Photos&#xFF09;&#x3059;&#x308B;&#x3002;</h2>
+<hr>
+<p><img src="pic/5.png" alt="img"></p>
+<h2 id="6----&#x64AE;&#x5F71;&#x3057;&#x305F;&#x753B;&#x50CF;&#x3092;lens&#x306B;&#x8FFD;&#x52A0;&#x3057;&#x305F;&#x72B6;&#x614B;&#x3002;">6.    &#x64AE;&#x5F71;&#x3057;&#x305F;&#x753B;&#x50CF;&#x3092;Lens&#x306B;&#x8FFD;&#x52A0;&#x3057;&#x305F;&#x72B6;&#x614B;&#x3002;</h2>
+<hr>
+<h2 id="7----&#x3053;&#x306E;&#x72B6;&#x614B;&#x3067;&#x300C;calibrate&#x300D;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;">7.    &#x3053;&#x306E;&#x72B6;&#x614B;&#x3067;&#x300C;Calibrate&#x300D;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;</h2>
+<hr>
+<p><img src="pic/6.png" alt="img"></p>
+<h2 id="8-&#x3059;&#x3079;&#x3066;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3092;&#x5165;&#x308C;&#x3066;ok&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3059;&#x308B;&#x3068;&#x30EC;&#x30F3;&#x30BA;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x306E;&#x8A08;&#x7B97;&#xFF08;&#x63A8;&#x5B9A;&#xFF09;&#x304C;&#x59CB;&#x307E;&#x308B;&#x3002;">8. &#x3059;&#x3079;&#x3066;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3092;&#x5165;&#x308C;&#x3066;OK&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3059;&#x308B;&#x3068;&#x30EC;&#x30F3;&#x30BA;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x306E;&#x8A08;&#x7B97;&#xFF08;&#x63A8;&#x5B9A;&#xFF09;&#x304C;&#x59CB;&#x307E;&#x308B;&#x3002;</h2>
+<hr>
+<h2 id="9----&#x30EC;&#x30F3;&#x30BA;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x306E;&#x63A8;&#x5B9A;&#x8A08;&#x7B97;&#x304C;&#x7D42;&#x4E86;&#x3059;&#x308B;&#x3068;&#x3001;radial-distortion&#xFF08;&#x6A3D;&#x578B;&#x6B6A;&#x307F;&#xFF09;&#x3001;-&#x5186;&#x5468;&#x65B9;&#x5411;&#x6B6A;&#x307F;&#xFF08;tangential-distortion&#xFF09;&#x306E;&#x30B0;&#x30E9;&#x30D5;&#x306A;&#x3069;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x3002;">9    &#x30EC;&#x30F3;&#x30BA;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x306E;&#x63A8;&#x5B9A;&#x8A08;&#x7B97;&#x304C;&#x7D42;&#x4E86;&#x3059;&#x308B;&#x3068;&#x3001;radial distortion&#xFF08;&#x6A3D;&#x578B;&#x6B6A;&#x307F;&#xFF09;&#x3001; &#x5186;&#x5468;&#x65B9;&#x5411;&#x6B6A;&#x307F;&#xFF08;tangential distortion&#xFF09;&#x306E;&#x30B0;&#x30E9;&#x30D5;&#x306A;&#x3069;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x3002;</h2>
+<hr>
+<p><img src="pic/7.png" alt="img"></p>
+<h2 id="10-&#x300C;file&#x300D;&#x30B3;&#x30DE;&#x30F3;&#x30C9;-&#x300C;save-calibration&#x300D;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3001;&#x4EFB;&#x610F;&#x306E;&#x5834;&#x6240;&#x306B;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;&#x3002;">10. &#x300C;File&#x300D;&#x30B3;&#x30DE;&#x30F3;&#x30C9;-&#x300C;Save calibration&#x300D;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3001;&#x4EFB;&#x610F;&#x306E;&#x5834;&#x6240;&#x306B;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;&#x3002;</h2>
+<hr>
+<p>&#x203B;PhotoScan&#x7528;&#x306E;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x306F;&#x300C;Save calibration&#x300D;&#x304B;&#x3089;&#x4FDD;&#x5B58;&#x3059;&#x308B;&#x3053;&#x3068;&#x3002;&#x300C;Save&#x300D;&#x3084;&#x300C;Save as..&#x300D;&#x3067;&#x306F;&#x3001;PhotoScan&#x7528;&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x5F62;&#x5F0F;&#x306B;&#x306A;&#x3089;&#x306A;&#x3044;&#x3002;</p>
+<h2 id="11----photoscan&#x7528;&#x306E;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#xFF08;xml&#x5F62;&#x5F0F;&#xFF09;&#x3002;photoscan&#x3067;&#x306F;&#x3053;&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x3080;&#x3002;">11.    PhotoScan&#x7528;&#x306E;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#xFF08;.xml&#x5F62;&#x5F0F;&#xFF09;&#x3002;PhotoScan&#x3067;&#x306F;&#x3053;&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x3080;&#x3002;</h2>
+<hr>
+<p><img src="pic/8.png" alt="img"></p>
+<h2 id="12----photoscan&#x3092;&#x8D77;&#x52D5;&#x3057;&#x3001;&#x5199;&#x771F;&#x753B;&#x50CF;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x3093;&#x3060;&#x5F8C;&#x306B;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x3080;&#x3002;">12.    PhotoScan&#x3092;&#x8D77;&#x52D5;&#x3057;&#x3001;&#x5199;&#x771F;&#x753B;&#x50CF;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x3093;&#x3060;&#x5F8C;&#x306B;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x3080;&#x3002;</h2>
+<hr>
+<p>&#x300C;Tools&#x300D;-&#x300C;Camera Calibration.&#x300D;</p>
+<p><img src="pic/9.png" alt="img"></p>
+<h2 id="13----&#x300C;load&#x300D;&#x30A2;&#x30A4;&#x30B3;&#x30F3;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3001;&#x30EC;&#x30F3;&#x30BA;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x3080;&#x3002;type&#x304C;&#x300C;precaliblated&#x300D;&#x306B;&#x306A;&#x308C;&#x3070;&#x6210;&#x529F;&#x3002;ok&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3066;&#x5B8C;&#x4E86;&#x3002;">13.    &#x300C;Load&#x300D;&#x30A2;&#x30A4;&#x30B3;&#x30F3;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3001;&#x30EC;&#x30F3;&#x30BA;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x3080;&#x3002;Type&#x304C;&#x300C;Precaliblated&#x300D;&#x306B;&#x306A;&#x308C;&#x3070;&#x6210;&#x529F;&#x3002;OK&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3066;&#x5B8C;&#x4E86;&#x3002;</h2>
+<p><img src="pic/10.png" alt="img"></p>
+<h2 id="14-&#x88DC;&#x6B63;&#x52B9;&#x679C;&#x306E;&#x78BA;&#x8A8D;">14. &#x88DC;&#x6B63;&#x52B9;&#x679C;&#x306E;&#x78BA;&#x8A8D;</h2>
+<hr>
+<p>&#x3000;PhotoScan&#x3067;&#x306F;&#x3001;Lens&#x3067;&#x4F5C;&#x6210;&#x3057;&#x305F;&#x30EC;&#x30F3;&#x30BA;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x3067;&#x6B6A;&#x307F;&#x3092;&#x9664;&#x53BB;&#x3057;&#x305F;&#x5199;&#x771F;&#x753B;&#x50CF;&#x3092;&#x51FA;&#x529B;&#x3067;&#x304D;&#x308B;&#x3002;&#x3053;&#x308C;&#x306B;&#x3088;&#x3063;&#x3066;&#x3001;&#x30EC;&#x30F3;&#x30BA;&#x88DC;&#x6B63;&#x304C;&#x884C;&#x308F;&#x308C;&#x3066;&#x3044;&#x308B;&#x304B;&#x3069;&#x3046;&#x304B;&#x3092;&#x78BA;&#x8A8D;&#x3067;&#x304D;&#x308B;&#x3002;<br>&#x3000;&#x6B6A;&#x307F;&#x88DC;&#x6B63;&#x3057;&#x305F;&#x3044;&#x5199;&#x771F;&#x753B;&#x50CF;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x307F;&#x3001;&#x30EC;&#x30F3;&#x30BA;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x3093;&#x3060;&#x72B6;&#x614B;&#x3067;&#x300C;Align Photos&#xFF08;Accuracy&#x306F;Low&#x3067;&#x826F;&#x3044;&#xFF09;&#x300D;&#x51E6;&#x7406;&#x3092;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3002;&#x300C;Align Photos&#x300D;&#x51E6;&#x7406;&#x3092;&#x884C;&#x3046;&#x307E;&#x3067;&#x306F;&#x6B6A;&#x307F;&#x9664;&#x53BB;&#x6E08;&#x307F;&#x753B;&#x50CF;&#x3092;&#x51FA;&#x529B;&#x3059;&#x308B;&#x3053;&#x3068;&#x306F;&#x3067;&#x304D;&#x306A;&#x3044;&#x3002;<br>&#x3000;&#x6B21;&#x306B;&#x3001;&#x300C;Tools&#x300D;-&#x300C;Export&#x300D;-&#x300C;Undistort Photos&#x300D;&#x3092;&#x9078;&#x629E;&#x3057;&#x3001;&#x30AA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x5168;&#x3066;&#x306B;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3092;&#x5165;&#x308C;&#x3066;&#x51FA;&#x529B;&#x5148;&#x30D5;&#x30A9;&#x30EB;&#x30C0;&#x3092;&#x9078;&#x629E;&#x3059;&#x308B;&#x3002;</p>
+<p><img src="pic/11.png" alt="img"><br>&#x6B6A;&#x307F;&#x88DC;&#x6B63;&#x524D;&#xFF08;&#x30AA;&#x30EA;&#x30B8;&#x30CA;&#x30EB;&#xFF09;&#x306E;&#x5199;&#x771F;&#x753B;&#x50CF;<br>&#xFF08;&#x3086;&#x304C;&#x307F;&#x88DC;&#x6B63;&#x52B9;&#x679C;&#x306E;&#x4F8B;&#x306E;&#x305F;&#x3081;&#x306B;GoPro2&#x3092;&#x4F7F;&#x7528;, &#x753B;&#x89D2;Medium&#xFF09;</p>
+<p><img src="pic/12.png" alt="img"><br>Lens&#x3067;&#x4F5C;&#x6210;&#x3057;&#x305F;&#x88DC;&#x6B63;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x306B;&#x3088;&#x308B;&#x6B6A;&#x307F;&#x88DC;&#x6B63;&#x5F8C;&#x306E;&#x5199;&#x771F;&#x753B;&#x50CF;&#x3002;&#x8D64;&#x3044;&#x7DDA;&#x3092;&#x898B;&#x308B;&#x3068;&#x3001;&#x753B;&#x50CF;&#x306E;&#x4E2D;&#x592E;&#x304A;&#x3088;&#x3073;&#x5468;&#x8FBA;&#x90E8;&#x306B;&#x304A;&#x3044;&#x3066;&#x3082;&#x3001;&#x6B6A;&#x3093;&#x3067;&#x3044;&#x305F;&#x30C1;&#x30A7;&#x30C3;&#x30AB;&#x30FC;&#x30DC;&#x30FC;&#x30C9;&#x304C;&#x88DC;&#x6B63;&#x3055;&#x308C;&#x3001;&#x6B63;&#x3057;&#x3044;&#x5E7E;&#x4F55;&#x5B66;&#x6A21;&#x69D8;&#x3092;&#x793A;&#x3057;&#x3066;&#x3044;&#x308B;&#x3053;&#x3068;&#x304C;&#x308F;&#x304B;&#x308B;&#x3002;&#x305F;&#x3060;&#x3057;&#x3001;&#x30C1;&#x30A7;&#x30C3;&#x30AB;&#x30FC;&#x30DC;&#x30FC;&#x30C9;&#x306E;&#x7E1E;&#x6A21;&#x69D8;&#x306E;&#x6570;&#x306F;&#x30AA;&#x30EA;&#x30B8;&#x30CA;&#x30EB;&#x3088;&#x308A;&#x5C11;&#x306A;&#x3044;&#x3002;&#x753B;&#x50CF;&#x88DC;&#x6B63;&#x306B;&#x3088;&#x3063;&#x3066;&#x5468;&#x8FBA;&#x90E8;&#x304C;&#x5207;&#x308A;&#x6368;&#x3066;&#x3089;&#x308C;&#x3066;&#x3044;&#x308B;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../5.setting/5.setting.html" class="navigation navigation-prev " aria-label="Previous page: PhotoScan初期設定">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../7.align_photo/7.align_photo.html" class="navigation navigation-next " aria-label="Next page: Workflow: Align Photos">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Lens（レンズ歪み補正ソフトウェア）","level":"3.1.6","depth":2,"next":{"title":"Workflow: Align Photos","level":"3.1.7","depth":2,"path":"SfM-MVS/GIS_uchiyama/7.align_photo/7.align_photo.md","ref":"./SfM-MVS/GIS_uchiyama/7.align_photo/7.align_photo.md","articles":[]},"previous":{"title":"PhotoScan初期設定","level":"3.1.5","depth":2,"path":"SfM-MVS/GIS_uchiyama/5.setting/5.setting.md","ref":"./SfM-MVS/GIS_uchiyama/5.setting/5.setting.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","splitter","collapsible-menu","creativecommons","livereload"],"styles":{"website":"website.css"},"pluginsConfig":{"collapsible-menu":{},"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"creativecommons":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"author","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"titile","gitbook":">= 3.0.0"},"file":{"path":"SfM-MVS/GIS_uchiyama/6.lens/6.lens.md","mtime":"2017-10-31T23:23:29.447Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-01T12:38:56.355Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

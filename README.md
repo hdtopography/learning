@@ -11,7 +11,7 @@
     - [JGU秋の学校2015Ver.](./SfM-MVS/obanawa/1_about_sfm/1_about_sfm.md#sfm多視点写真測量について)
     - [GIS学会2017Ver.](./SfM-MVS/GIS_uchiyama/README.md)
 - 点群処理
-  - [CloudCompareの基本操作](./cloudcompare/CloudCompare.md)
+  - [CloudCompareの基本操作](./cloudcompare/cloudcompare.md)
 - 低価格GNSS
   - [RTKLIBによる解析（JGU夏の学校2018Ver.）](./GNSS/README.md)
 

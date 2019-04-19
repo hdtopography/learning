@@ -1,11 +1,11 @@
 {
-  "name": "name",
+  "name": "高精細地形情報取得のためのオープン教材",
   "version": "0.0.0",
   "keywords": [
     "keyword1",
     "keyword2"
   ],
-  "description": "desctiption",
+  "description": "HD-Topography Project / 地形鮮明化プロジェクトが提供する「高精細地形情報取得のためのオープン教材」です。",
   "devDependencies": {
     "gitbook-cli": "^2.3.0",
     "http-server": "^0.9.0",
