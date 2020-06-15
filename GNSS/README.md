@@ -9,7 +9,7 @@ This document is created from the JGU Summer School 2018 in Hokkaido, "Further E
 ---
 
 ### 1. [planning](./1.plan/1.plan.md)
-### 2. [measurement](./2.measurement/2.measurement.md)
+### 2. [surveying](./2.measurement/2.measurement.md)
 ### 3. [post processing](./3.analysis/3.analysis.md)
 ### 4. [accuracy assessment](./4.accuracy/4.accuracy.md)
 
